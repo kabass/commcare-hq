@@ -118,7 +118,7 @@ defusedxml==0.7.1
     # via
     #   -r base-requirements.in
     #   oic
-##dependency-metrics==0.1.1
+dependency-metrics==0.1.1
     # via -r dev-requirements.in
 deprecated==1.2.10
     # via
@@ -333,7 +333,7 @@ httplib2==0.20.4
     # via
     #   google-api-python-client
     #   google-auth-httplib2
-idna==2.10
+idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -355,7 +355,6 @@ isort==5.10.1
 jedi==0.18.1
     # via ipython
 jinja2==3.1.2
-    # via
     # via
     #   -r base-requirements.in
     #   myst-parser
