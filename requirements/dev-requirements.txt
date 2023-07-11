@@ -118,7 +118,7 @@ defusedxml==0.7.1
     # via
     #   -r base-requirements.in
     #   oic
-dependency-metrics==0.1.1
+##dependency-metrics==0.1.1
     # via -r dev-requirements.in
 deprecated==1.2.10
     # via
@@ -355,6 +355,7 @@ isort==5.10.1
 jedi==0.18.1
     # via ipython
 jinja2==3.1.2
+    # via
     # via
     #   -r base-requirements.in
     #   myst-parser

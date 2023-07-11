@@ -34,7 +34,6 @@ RUN npm -g install \
     bower \
     grunt-cli \
     uglify-js
-
 # prefer https for git checkouts made by pip
 RUN git config --global url."https://".insteadOf git://
 
@@ -57,4 +56,12 @@ RUN npm shrinkwrap && \
 COPY --chown=cchq:cchq . /vendor/
 COPY --chown=cchq:cchq docker/min_settings.py /vendor/localsettings.py
 RUN mkdir /vendor/log
+
+RUN git init
+RUN echo "init"  > toto.txt;
+RUN    git add .;
+RUN  git config --global user.email "you@example.com"
+RUN  git config --global user.name "Your Name"
+RUN  git commit -m "ddd"
+
 RUN python manage.py collectstatic --noinput
