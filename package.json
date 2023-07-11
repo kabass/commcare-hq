@@ -40,7 +40,7 @@
         "datatables.net-dt": "1.11.3",
         "detectrtc": "1.4.0",
         "eonasdan-bootstrap-datetimepicker": "4.17.49",
-        "fast-levenshtein": "2.0.6",
+        "fast-levenshtein": "3.0.0",
         "font-awesome": "4.7.0",
         "intl-tel-input": "9.0.7",
         "jquery": "3.5.1",
