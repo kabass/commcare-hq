@@ -113,6 +113,7 @@ django==3.2.19
     #   django-appconf
     #   django-braces
     #   django-bulk-update
+    #   django-crispy-forms
     #   django-extensions
     #   django-formtools
     #   django-logentry-admin
@@ -144,7 +145,7 @@ django-compressor==4.1
     # via -r base-requirements.in
 django-countries==7.3.2
     # via -r base-requirements.in
-django-crispy-forms==1.10.0
+django-crispy-forms==2.0
     # via -r base-requirements.in
 django-cte==1.2.0
     # via -r base-requirements.in
